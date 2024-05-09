@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <form id="formPrograma" action="contacto.php" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" name="nombre" placeholder="Nombre" type="text"><br><br>
+        <label for="apellido">Apellido: </label>
+        <input id="apellido" name="apellido" placeholder="Apellido" type="text"><br><br>
+        <label for="asunto">Asunto: </label>
+        <input id="asunto" name="asunto" placeholder="Asunto" type="text"><br><br>
+        <label for="email">Email: </label>
+        <input id="email" name="email" placeholder="Email" type="email"><br><br>
+        <label for="mensaje">Mensaje: </label>
+        <textarea placeholder="Mensaje" name="mensaje" id="mensaje" cols="30" rows="5"></textarea><br><br>
+        <button id="botonEnviar" type="submit">Enviar</button>
+        <button id="botonLimpiar" type="reset">Limpiar</button>
+        <button id="botonSalir" type="reset">Salir</button>
+    </form>
+</body>
+</html>
